@@ -1,9 +1,5 @@
-// nombre tiene que ser una variable
-// de tipo text
-function saludar(nombre) {
-    console.log("Hola " + nombre.toUpperCase());
+var mensaje = "hola";
+if (true) {
+    var mensaje = "adios";
 }
-var wolverine = {
-    nombre: "Logan"
-};
-saludar(wolverine.nombre);
+console.log(mensaje);
