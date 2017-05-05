@@ -1,0 +1,7 @@
+para empezar con Angular,
+
+Primero:
+terminal:
+
+npm install
+npm start
