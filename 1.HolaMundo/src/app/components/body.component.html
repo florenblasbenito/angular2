@@ -8,11 +8,15 @@
         <hr>
 
 
-<div class="card card-inverse card-primary mb-3 text-center">
+<div *ngIf="mostrar"
+
+
+
+class="card card-inverse card-primary mb-3 text-center">
   <div class="card-block">
     <blockquote class="card-blockquote">
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
-      <footer>Someone famous in <cite title="Source Title">Source Title</cite></footer>
+      <p>{{ text }}</p>
+      <footer>author: <cite title="Source Title">{{ autor }}</cite></footer>
     </blockquote>
   </div>
 </div>
@@ -31,10 +35,15 @@
 
 <ul class="list-group"> 
 
-    <li class="list-group-item">Item 1</li>
-    <li class="list-group-item">Item 2</li>
-    <li class="list-group-item">Item 3</li>
-    <li class="list-group-item">Item 4</li>
+    <li *ngFor="let personaje of personajes"
+    
+    class="list-group-item">Item 1</li>
+
+
+
+
+
+
 </ul>
 
 

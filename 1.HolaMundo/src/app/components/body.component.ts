@@ -7,5 +7,12 @@ import { Component } from '@angular/core';
 })
 
 export class BodyComponent {
+
+    mostrar:boolean = false;
+
+    text:string = "Un gran poder, requiere de una gran responsabilidad.";
+    autor:string = "Ben Parker";
+
+    personajes:string [] = [ "Spiderman", "Venom", "Dr. Octopus"]
  
 }
