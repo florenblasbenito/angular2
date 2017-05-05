@@ -35,9 +35,11 @@ class="card card-inverse card-primary mb-3 text-center">
 
 <ul class="list-group"> 
 
-    <li *ngFor="let personaje of personajes"
+    <li *ngFor="let personaje of personajes; let i = index"
     
-    class="list-group-item">Item 1</li>
+    class="list-group-item">
+    
+    {{i+1}} - {{ personaje }}</li>
 
 
 
