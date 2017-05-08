@@ -18,3 +18,21 @@ luego ng serve
 una vez termine abrirlo en: http://localhost:4200/
 
 
+luego poner:
+
+ng g c "ruta de la carpeta"
+
+Luego instalamos bootstrap4:
+
+ng install bootstrap@4.0.0-alpha.6 --save
+
+y luego jquery:
+
+npm install jquery --save
+
+Y luego instalamos el tether:
+
+npm install tether --save
+
+
+
