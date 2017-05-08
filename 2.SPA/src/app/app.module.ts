@@ -3,6 +3,21 @@ import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 
+
+// Rutas
+import { APP_ROUTING } from './app.routes';
+
+
+
+
+
+//Servicios
+
+
+
+
+
+//Componentes
 import { AppComponent } from './app.component';
 import { NavbarComponent } from './components/shared/components/shared/navbar/navbar.component';
 import { HomeComponent } from './components/shared/components/home/home.component';
@@ -15,12 +30,13 @@ import { HeroesComponent } from './components/heroes/heroes.component';
     NavbarComponent,
     HomeComponent,
     AboutComponent,
-    HeroesComponent
+    HeroesComponent,
   ],
   imports: [
     BrowserModule,
     FormsModule,
-    HttpModule
+    HttpModule,
+    APP_ROUTING
   ],
   providers: [],
   bootstrap: [AppComponent]
