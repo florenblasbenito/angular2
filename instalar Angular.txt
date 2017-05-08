@@ -5,3 +5,16 @@ terminal:
 
 npm install
 npm start
+
+
+para angular gi,
+
+hay que poner en el terminal:
+ng new "nombre"
+
+luego ng serve
+
+
+una vez termine abrirlo en: http://localhost:4200/
+
+
