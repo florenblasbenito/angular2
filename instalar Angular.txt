@@ -7,12 +7,16 @@ npm install
 npm start
 
 
+para crear una carpeta en un sitio determinado ir al terminal y poner:
+ng new nombredelacarpeta
+
 para angular gi,
 
 hay que poner en el terminal:
 ng new "nombre"
 
-luego ng serve
+luego:
+ng serve
 
 
 una vez termine abrirlo en: http://localhost:4200/
