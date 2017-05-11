@@ -1,3 +1,4 @@
+
 import { Component } from '@angular/core';
 
 @Component({
@@ -27,10 +28,13 @@ heroe = {
   direccion: {
     calle: "Primera",
     casa: "19"
-  }
+  },
 
-}
+};
 
+valorDePromesa = new Promise ( ( resolve, reject )=> {
+  setTimeout(() =>resolve('Llego la data!'), 3500);
+})
 
 
 
