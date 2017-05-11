@@ -93,13 +93,17 @@
         <td> number: '.2-2' </td>
         <td>{{ salario | number:'.2-2' }}</td>
       </tr>
-
-      <h4>Slice</h4>
-
-      <ul>
-        <li *ngFor="let item of arreglo | slice:5:20"> {{ item }} </li>
-      </ul>
-
     </tbody>
   </table>
+
+  <h4>Slice</h4>
+
+  <ul>
+    <li *ngFor="let item of arreglo | slice:5:20"> {{ item }} </li>
+  </ul>
+
+<h4>JSON</h4>
+
+{{ heroe }}
+
 </div>
