@@ -2,12 +2,19 @@ import { Pipe, PipeTransform } from '@angular/core';
 
 @Pipe({name: 'capitalizado'})
 export class CapitalizadoPipe implements PipeTransform {
-    transform(value: string, ...args: any[] ): string {
+    transform(value: string ): string {
 
-        console.log(value);
-        console.log(args);
+        value = value.toLowerCase();
 
-        return "Hola mundo!";
+        let nombres = value.split("");
         
+        for ( let i in nombres) {
+            nombres[i] = nombres[i][0].toUpperCase() + nombres[i].substr(1)
+
+        }
+        
+
+return nombres.join ("");
+
     }
 }
