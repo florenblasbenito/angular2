@@ -42,4 +42,7 @@ valorDePromesa = new Promise ( ( resolve, reject )=> {
 video = "https://www.youtube.com/embed/xnWtGNiG2lg?list=PLhSj3UTs2_yVC0iaCGf16glrrfXuiSd0G";
 
 
+activar:boolean = true;
+
+
 }
