@@ -9,16 +9,14 @@ import { Component, OnInit } from '@angular/core';
 })
 export class SearchComponent implements OnInit {
 
+  termino:string = "";
+
   constructor( private _spotifyService:SpotifyService ) { }
 
   ngOnInit() {
 
     this._spotifyService.getArtistas( "metallica" )
-    .subscribe( data =>{
-      console.log('ESTO ES DEL SEARCH.component');
-      console.log(data);
-
-    });
+    .subscribe();
   }
 
 }
