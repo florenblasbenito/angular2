@@ -13,10 +13,15 @@ export class SearchComponent implements OnInit {
 
   constructor( private _spotifyService:SpotifyService ) { }
 
-  ngOnInit() {
+  ngOnInit() {}
 
-    this._spotifyService.getArtistas( "metallica" )
-    .subscribe();
+  buscarArtista(){
+    console.log(this.termino);
+
+    // this._spotifyService.getArtistas( termino )
+   // .subscribe();
+
+
   }
 
 }
