@@ -16,7 +16,7 @@ export class SpotifyService {
 
   getArtistas( termino:string ) {
 
-      let query = `q=${ termino }&type=artist`;
+      let query = `?q=${ termino }&type=artist`;
       let url = this.urlBusqueda + query;
 
       return this.http.get( url )
