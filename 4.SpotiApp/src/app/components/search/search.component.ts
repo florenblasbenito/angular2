@@ -16,10 +16,10 @@ export class SearchComponent implements OnInit {
   ngOnInit() {}
 
   buscarArtista(){
-    console.log(this.termino);
+   // console.log(this.termino);
 
-    // this._spotifyService.getArtistas( termino )
-   // .subscribe();
+    this._spotifyService.getArtistas( this.termino )
+   .subscribe();
 
 
   }

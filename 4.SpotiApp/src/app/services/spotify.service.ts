@@ -25,7 +25,7 @@ export class SpotifyService {
         this.artistas = res.json().artists.items;
         console.log(this.artistas);
 
-        return res.json().artists.items;
+      //  return res.json().artists.items;
 
       })
 
