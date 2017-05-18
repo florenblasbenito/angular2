@@ -11,12 +11,15 @@ import { TabsPage } from '../pages/tabs/tabs';
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
 
+import { PendientesComponent }  from '../pages/pendientes/pendientes.component';
+
 @NgModule({
   declarations: [
     MyApp,
     AboutPage,
     ContactPage,
     HomePage,
+    PendientesComponent,
     TabsPage
   ],
   imports: [
@@ -29,6 +32,7 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     AboutPage,
     ContactPage,
     HomePage,
+    PendientesComponent,
     TabsPage
   ],
   providers: [
