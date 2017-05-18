@@ -57,12 +57,16 @@
             <td>{{ pista.name }}</td>
             <td>{{ pista.popularity }}%</td>
             <td>
-              <audio controls>
+              
+              
+              <!--<audio controls>
                 <source [src]="pista.preview_url">
                 Tu navegador es muy viejo!
-                </audio>
+                </audio> -->
 
-            </td>
+                  <iframe [src]=" pista.uri | domseguro:'https://embed.spotify.com/?uri='" width="300" height="80" frameborder="0" allowtransparency="true"></iframe>
+
+              </td>
           </tr>
         </tbody>
 
