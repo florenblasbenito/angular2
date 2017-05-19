@@ -13,12 +13,15 @@ import { SplashScreen } from '@ionic-native/splash-screen';
 
 import { PendientesComponent }  from '../pages/pendientes/pendientes.component';
 import { TerminadosComponent }  from '../pages/terminados/terminados.component';
+import { AgregarComponent} from '../pages/agregar/agregar.component';
+
 
 @NgModule({
   declarations: [
     MyApp,
     TerminadosComponent,
     PendientesComponent,
+    AgregarComponent,
     TabsPage
   ],
   imports: [
@@ -30,6 +33,7 @@ import { TerminadosComponent }  from '../pages/terminados/terminados.component';
     MyApp,
     PendientesComponent,
     TerminadosComponent,
+    AgregarComponent,
     TabsPage
   ],
   providers: [
