@@ -6,12 +6,34 @@
 
 <ion-content padding>
  
-  <ul>
-    <li *ngFor="let lista of _listaDeseos.listas">
+<ion-card *ngFor="let lista of _listaDeseos.listas">  
 
-      {{ lista.nombre }}
+<ion-item>    
+  BOTON!!!
+</ion-item>
 
-    </li>
-  </ul>
 
+<h2>{{ lista.nombre }}</h2>
+<ion-list>
+  <ion-item>
+    <ion-icon ios="ios-arrow-dropright-circle" md="md-arrow-dropright-circle"></ion-icon>
+    Tetris
+  </ion-item>
+
+   <ion-item>
+    <ion-icon ios="ios-arrow-dropright-circle" md="md-arrow-dropright-circle"></ion-icon>
+    Tetris
+  </ion-item>
+
+   <ion-item>
+    <ion-icon ios="ios-arrow-dropright-circle" md="md-arrow-dropright-circle"></ion-icon>
+    Tetris
+  </ion-item>
+
+
+</ion-list>
+<!--  <li *ngFor="let lista of _listaDeseos.listas">-->
+
+</ion-card>
+   
 </ion-content>
