@@ -6,6 +6,12 @@ import {Component, OnInit } from '@angular/core';
 })
 
 export class AgregarComponent implements OnInit {
+
+    nombreLista:string;
+    nombreItem:string;
+
+
+
     constructor() { }
 
     ngOnInit() {}

@@ -1,6 +1,6 @@
 <ion-header>
-  <ion-navbar>
-    <ion-title>Nueva Lista</ion-title>
+  <ion-navbar color="primary">
+    <ion-title> {{ nombreLista | placeholder:'Nueva lista' }}</ion-title>
   </ion-navbar>
 </ion-header>
 
@@ -12,7 +12,7 @@
 
       <ion-item>
         <ion-label floating>Nombre de la lista</ion-label>
-        <ion-input type="text"></ion-input>
+        <ion-input type="text" [(ngModel)]="nombreLista" name="nombreLista"></ion-input>
         </ion-item>
 
         </ion-card-header>
@@ -22,7 +22,7 @@
 
             <ion-item>
         <ion-label>Item</ion-label>
-        <ion-input type="text"></ion-input>
+        <ion-input type="text" [(ngModel)]="nombreItem" name="nombreItem"></ion-input>
         </ion-item>
 
 

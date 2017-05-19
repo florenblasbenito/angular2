@@ -6,6 +6,10 @@ import { MyApp } from './app.component';
 // Servicios
 import { ListaDeseosService } from './services/lista-deseos.service';
 
+
+// Pipes
+import { PlaceHolderPipe } from './pipes/placeholder.pipe';
+
 import { TabsPage } from '../pages/tabs/tabs';
 
 import { StatusBar } from '@ionic-native/status-bar';
@@ -19,6 +23,7 @@ import { AgregarComponent} from '../pages/agregar/agregar.component';
 @NgModule({
   declarations: [
     MyApp,
+    PlaceHolderPipe,
     TerminadosComponent,
     PendientesComponent,
     AgregarComponent,
