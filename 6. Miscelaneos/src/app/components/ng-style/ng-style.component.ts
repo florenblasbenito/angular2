@@ -3,9 +3,10 @@ import { Component, OnInit } from '@angular/core';
 @Component({
   selector: 'app-ng-style',
   template: `
-    <p>
-      ng-style Works!
-    </p>
+   
+   <p style="font-size: 10px;">
+   Hola mundo... esta es una etiqueta
+   </p>
   `,
   styles: []
 })
