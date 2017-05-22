@@ -4,7 +4,7 @@ import { Component, OnInit } from '@angular/core';
   selector: 'app-ng-style',
   template: `
    
-   <p [ngStyle]="{'font-size': '15px'}">
+   <p [ngStyle]="{'font-size': tamano + 'px'}">
    Hola mundo... esta es una etiqueta
    </p>
   `,
@@ -12,6 +12,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class NgStyleComponent implements OnInit {
 
+tamano:number = 30;
   constructor() { }
 
   ngOnInit() {
