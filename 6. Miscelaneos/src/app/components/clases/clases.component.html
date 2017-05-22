@@ -30,10 +30,12 @@ Proceso Asíncrono
 
 </h3>
 
-<button 
+<button (click)="ejecutar()"
 class="btn btn-primary"
 type="button" name="button">
-  <i class="fa fa-refresh fa-spin"></i>
+
+  <i [ngClass]="{'fa-save':!loading, 'fa-refresh fa-spin':loading }"
+  class="fa"></i>
 Guardar cambios
 
 
