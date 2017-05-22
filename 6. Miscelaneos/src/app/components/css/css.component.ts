@@ -8,8 +8,9 @@ import { Component, OnInit } from '@angular/core';
     </p>
   `,
   styles: [ `
-  p {color:red;
-  font-size: 20px;
+  p {
+    //color:red;
+    font-size: 20px;
   }
   ` ]
 })
