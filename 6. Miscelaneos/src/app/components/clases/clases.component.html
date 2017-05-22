@@ -4,3 +4,7 @@
 <div [ngClass]="alerta" class="alert" role="alert">
   <strong>Well done!</strong> You successfully read this important alert message.
 </div>
+
+
+<button type="button" class="btn btn-info" (click)="alerta = 'alert-info'"> Info</button>
+<button type="button" class="btn btn-success" (click)="alerta = 'alert-success'"> Success</button>
