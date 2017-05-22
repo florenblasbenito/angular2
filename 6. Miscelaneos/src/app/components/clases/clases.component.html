@@ -14,3 +14,10 @@
 <h3 [ngClass]=" { 'text-danger': propiedades.danger, 'text-info': !propiedades.danger } ">
   Hola Mundo
 </h3>
+
+<button (click)="propiedades.danger = !propiedades.danger"
+type="button" name="button"
+class="btn"
+[ngClass]="{ 'btn-danger': propiedades.danger, 'btn-info':!propiedades.danger }">
+  Cambiar
+</button>
